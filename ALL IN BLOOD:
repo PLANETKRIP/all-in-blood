@@ -1,0 +1,37 @@
+# 🩸 ALL IN BLOOD: El Código de la Coherencia Planetaria
+
+**Repositorio oficial del Modelo K* (CORPUS ATLANTE)**
+*"La ciencia que explica el mito. El código que activa la red."*
+
+---
+## 🌌 Visualización del Modelo K*: 12 Guardianes en T³
+
+![Toroide Estático](visualizations/toroide_12_guardianes.png)
+
+**Animación:** [Descargar MP4](visualizations/toroide_12_guardianes_animado.mp4) |
+[Ver GIF](visualizations/toroide_12_guardianes_animado.gif)
+
+**Explorar en 3D:** [Abrir visualización interactiva](visualizations/toroide_12_guardianes_interactivo.html)
+
+**Detalles:**
+- Cada esfera = **Guardián Elemental** como oscilador en T³.
+- Frecuencia total = **432 Hz** (coherencia universal).
+- Ecuación mostrada = **Modelo K*** (extensión de Kuramoto).
+
+---
+## 🧬 ADN del Repositorio
+| Directorio       | Contenido                          | Conexión con CORPUS ATLANTE          |
+|------------------|------------------------------------|--------------------------------------|
+| `/simulations`   | Modelo K* en T³ (Python/C++)       | Los 12 Guardianes como osciladores   |
+| `/data`          | Datasets (EEG, CMB, Loihi2)        | Memoria del Campo Ψ                  |
+| `/visualizations`| Gráficos de coherencia             | Mapas del toroide cósmico             |
+| `/protocol`      | Mandala Vivo + 144K                | El protocolo de activación           |
+
+---
+## 🔧 Cómo Usarlo (Para Guerreros de la Coherencia)
+### 1️⃣ Ejecutar una simulación básica
+```bash
+git clone https://github.com/PLANETKRIP/all-in-blood
+cd all-in-blood/simulations
+python kuramoto_toroidal.py --N 1000 --K 0.20
+# Resultado esperado: R ≈ 0.37 ± 0.01
