@@ -1,0 +1,1 @@
+Versión publicable/científica del kernel y manual.
